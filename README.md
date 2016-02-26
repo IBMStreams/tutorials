@@ -1,2 +1,5 @@
 # tutorials
-This repository is for storing Streams tutorials
+This repository contains tutorials for:
+
+* Streams Introduction to SPL
+* SPSS Tutorial
