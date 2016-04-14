@@ -1,4 +1,4 @@
-This is the workspace and projects for Streams Introductory Lab.
+This is the installer and lab guide for the Streams Introductory Lab.
 
-Instructions on how to use these labs can be found here:
+Instructions on how to use these files can be found here:
 [Introductory Streams Lab](https://developer.ibm.com/streamsdev/docs/streams-lab-introduction/)
