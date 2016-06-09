@@ -48,7 +48,7 @@ In the lab so far, you have built a monolithic app, but there is a logical divis
     
     a. 	In the palette, find the Import operator and drop it into the old main composite.
     
-    b. 	Drag a stream from Import_11 to IDChecker.
+    b. 	Drag a stream from <b>Import_11 to IDChecker.
     
     c. 	Assign a schema to this stream, by dragging and dropping LocationType from the palette.
     
@@ -72,3 +72,6 @@ In the lab so far, you have built a monolithic app, but there is a logical divis
 Notice that the tuples flow from operator to operator throughout the instance graph, even though they are divided into two main composites. Leave the two applications running; you’ll be adding a third.
 
 <img width="100%" src="/tutorials/images/Lab4/1.jpg"/>
+
+ {% include nextPageFinder.html context=page.url %}
+ 

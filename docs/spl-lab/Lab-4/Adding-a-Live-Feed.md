@@ -47,3 +47,6 @@ Rather than building a live-data ingest application from scratch, you will impor
 
 ## Check your results
 You should see the three applications all connected; tuples flow from the FileIngest job whenever you copy another file into the Data directory. Tuples flow from the NextBus job in 30-second bursts. The error.observations file gradually fills with records from NextBus: their vehicle IDs do not conform to the “Cnnn” format. (Refresh the file periodically: click in the editor showing the file and click Yes in the File Changed dialog, which comes up when Studio detects that the underlying contents have changed.)
+
+ {% include nextPageFinder.html context=page.url %}
+ 

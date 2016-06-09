@@ -65,3 +65,5 @@ If you successfully installed the lab files, your VMware desktop should look lik
 <img width="100%" src="/tutorials/images/Overview/desktop.png"/>
 
  Your domain and instance are ready to run your applications.
+ 
+ {% include nextPageFinder.html context=page.url %}

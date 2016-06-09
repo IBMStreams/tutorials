@@ -86,3 +86,6 @@ Your streams view should look like this at this point:
   In the editor, select Throttled. In the Properties view (Param tab), click on the Value field next to the rate parameter and enter 40.0. (The decimal point is necessary to indicate a floating-point value).
 
   Save. There should be no build errors.
+
+ {% include nextPageFinder.html context=page.url %}
+ 

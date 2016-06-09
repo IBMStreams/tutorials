@@ -36,3 +36,6 @@ To continue with this part even if you did not successfully complete the previou
 1. In the Project Explorer, expand MyProject2 and then my.name.space.
 
 1. Double-click MyMainComposite to open it in the graphical editor.
+
+ {% include nextPageFinder.html context=page.url %}
+ 

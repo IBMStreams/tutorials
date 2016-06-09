@@ -61,3 +61,6 @@ Data is carried in tuples; tuples flow on streams. To view data, you have to mon
   You now can gain more insight in your data by inspecting it visually. For example, it becomes clear that the heading makes big jumps between relatively constant periods; this makes sense in an American city, where most turns are 90 degrees. Also, the speed, while in principle a measured quantity best represented by a floating-point number, is only reported as whole numbers (this is also obvious from the table view), lending a stair-step quality to the plot; this may mean that some efficiency can be gained by changing the attribute type to `int32` or even `int16` or `int8`, provided that it can be verified that no source will ever have non-integer speed values.
 
   When you are ready to move on to the next module, close or minimize the browser and go back to Studio.
+
+ {% include nextPageFinder.html context=page.url %}
+ 

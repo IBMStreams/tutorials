@@ -21,6 +21,19 @@ navbar-default .navbar-collapse,
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 }
 
+.nextPageLink{
+    background: #f1f1f1;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    padding: 15px;
+    width: 35em;
+}
+
+.nextPageLink a{
+    display: block;
+}
+
 .toctest{
     background: #f1f1f1; /* #f1f1f1 is the hex-code for the previously used color */
     padding-top: 10px; /* #DBF0FD also a possibility, slightly daker blue*/

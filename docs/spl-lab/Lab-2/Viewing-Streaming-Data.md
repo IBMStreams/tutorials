@@ -22,3 +22,6 @@ While developing, you often want to inspect not just the overall tuple flow, but
 
 
   When you have seen enough data, dismiss the two floating Properties views.
+
+ {% include nextPageFinder.html context=page.url %}
+ 

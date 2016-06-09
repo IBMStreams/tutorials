@@ -36,3 +36,6 @@ Taken together, all of these views comprise a **perspective** in Eclipse. When y
 <div class="alert alert-info" role="alert">
 <h4>InfoSphere?</h4> You might see a few places where Streams is referred to as InfoSphere Streams. The name was shortened in the 4.1 release, but a few places (such as installation directories) still use InfoSphere Streams.
 </div>
+
+ {% include nextPageFinder.html context=page.url %}
+ 

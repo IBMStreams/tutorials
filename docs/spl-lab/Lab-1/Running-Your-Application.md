@@ -75,3 +75,6 @@ The input data is exhausted but the job is still running. This is always true fo
 <b>Show files side by side</b>
 
 You can show two editors side by side by dragging the tab of one of them to the right edge of the editor view. As you drag, green outlines appear, which arrange themselves side by side as you approach the right edge. To undo, drag the tab back to a position among the other tabs, or close it.
+
+ {% include nextPageFinder.html context=page.url %}
+ 

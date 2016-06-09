@@ -106,3 +106,6 @@ You will compute average speeds over a window, separately for vehicles C101 and 
     c. 	Save. Close the Properties view. Your application is ready to launch.
     
 7. 	Launch the application. Right-click MyMainComposite in the Project Explorer and choose Launch…. Click Apply (if necessary) and Continue in the Edit Configuration dialog.
+
+ {% include nextPageFinder.html context=page.url %}
+ 

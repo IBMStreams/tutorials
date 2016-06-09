@@ -72,3 +72,6 @@ SPL automatically assigns names (Identifiers) to operators by using the name(s) 
 ### Check your results
 
 The Properties view may have been obscuring this, but each time you saved the graph, a build was started to compile the application; the progress messages are shown in the Console view (in the SPL Build console). If you scroll back (you may also want to enlarge or maximize the Console view), you will see some builds that terminated on errors, with messages in red. The last build should have completed without any errors.
+
+ {% include nextPageFinder.html context=page.url %}
+ 

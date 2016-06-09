@@ -25,3 +25,6 @@ Because the file is read every 45 seconds and the throttled drawdown takes a lit
 1. 	What will happen eventually, as you let this run for a long time? Will the FileSource operator continue to read the entire file every 45 seconds? What happens to its input buffer, on the port receiving the file names? How will the DirectoryScan operator respond?
 
 These questions are intended to get you thinking about a phenomenon called <b>back-pressure</b>. This is an important concept in stream processing. As long as buffers can even out the peaks and valleys in tuple flow rates, everything will continue to run smoothly. But if buffers fill up and are never fully drained, the congestion moves to the front of the graph and something has to give: unless you can control and slow down the source (as conveniently happens here), data will be lost. There is no getting around that.
+
+ {% include nextPageFinder.html context=page.url %}
+ 

@@ -22,3 +22,5 @@ The NextBus toolkit comes with another application that lets you view data in a 
 
   Hover over or click any one of the markers to get the full list of attributes for that vehicle.
 
+ {% include nextPageFinder.html context=page.url %}
+ 

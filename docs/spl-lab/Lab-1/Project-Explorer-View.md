@@ -84,3 +84,6 @@ In the Type column, use Ctrl+Space to get a list of available types. Begin typin
 
 ## Check your results
 The tuple type LocationType is now available for use as a stream type in any main composite within the namespace my.name.space.
+
+ {% include nextPageFinder.html context=page.url %}
+ 

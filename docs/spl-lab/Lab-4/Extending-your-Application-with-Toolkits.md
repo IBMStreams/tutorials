@@ -12,3 +12,6 @@ _Explain the benefit of using toolkits. For example, someone else has already do
 Also, point them to the content on GitHub so that they can explore the toolkits in more detail._
 
 _If this truly belongs as part of the modular application design section, we can put it back in there. However, I think it might make sense to make the two subsections into sub modules and keep this as a parent to help set the context of IBM Streams toolkits._
+
+ {% include nextPageFinder.html context=page.url %}
+ 

@@ -12,3 +12,5 @@ This lab has barely scratched the surface of what Streams is capable of. Apart f
 Your next steps are to decide whether this application development platform for streaming data can help you build solutions that enhance your business; whether what you have seen gives you a sense that it can help solve problems you already have in mind; and whether your organization has access to the required development skills or should invest in building them. IBM provides formal training courses for this product, and our technical sales specialists can help identify opportunities for streaming data-based solutions, organize workshops, and move to pilot projects and beyond.
 
 <center><b>HAPPY STREAMING</b></center>
+
+ {% include nextPageFinder.html context=page.url %}

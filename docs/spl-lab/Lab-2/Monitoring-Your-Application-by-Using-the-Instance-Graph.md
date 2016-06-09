@@ -65,4 +65,5 @@ The Instance Graph in Studio provides many ways to monitor what your application
 
     * To cancel the job completely, right-click anywhere in the main composite and choose Cancel job; in the Confirm dialog, click Yes.
 
-Click   Fit to Content.
+ {% include nextPageFinder.html context=page.url %}
+ 

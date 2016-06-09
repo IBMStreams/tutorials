@@ -28,7 +28,6 @@ Explaining what you see there is beyond the scope of this lab.
 </div>
 
 # Adding operators to your application graph
-_What are operators? What do they do in the application?_
 
 Operator templates
 Some operators appear once in the palette; others (the ones you used) have twisties and expand into one or more subentries. These are templates: invocations of the operator with specific settings—for example, a Filter operator with a second output port to produce rejected tuples. In this lab, the generic version (with the twisty) is always the right one; don’t use the templates.
@@ -78,3 +77,6 @@ By default, hovering over an operator in the graphical editor brings up a popup 
 
 ### Check your results
 The main composite as well as the three operators it contains now have   error indicators. This is expected, as the code so far contains only placeholders for the parameters and stream types, and those placeholders are not valid entries.
+
+ {% include nextPageFinder.html context=page.url %}
+ 

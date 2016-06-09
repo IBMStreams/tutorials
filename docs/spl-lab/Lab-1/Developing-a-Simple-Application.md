@@ -91,3 +91,6 @@ You should see the following in Streams Studio:
 <h4>Hint</h4>
 If you want to give the editor more space, close the Outline view and collapse the Layers and Color Schemes palettes (this lab does not use them).
 </div>
+
+ {% include nextPageFinder.html context=page.url %}
+ 
