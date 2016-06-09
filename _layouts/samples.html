@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% include sampleHead.html %}
+
+<html>
+{% include docHeader.html %}
+
+<body>
+
+	<div class="container-fluid" id="content">
+		<div class="row">
+			<div class="nav col-sm-2 col-md-2 col-lg-2 sidebar text-left"
+				style="padding-top:30px; background-color: aliceblue;"  >
+				<ul class="nav nav-sidebar">
+					<li><a href="/streamsx.documentation/samples/">All Samples</a></li>
+					<li><a href="https://www.ibm.com/developerworks/community/files/app?lang=en#/collection/ef9f8aa9-240f-4854-aae3-ef3b065791da" target="_blank">Download</a></li>
+				</ul>
+			</div>
+			<div class="main col-sm-10 col-md-10 col-lg-10">{{content}}</div>
+		</div>
+
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="/streamsx.documentation/css/dist/js/bootstrap.min.js"></script>
+</body>
+</body>
+</html>
