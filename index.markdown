@@ -5,11 +5,14 @@ description:  IBM Streams community-based tutorials project.
 ---
 
 # streamsx.tutorials
+---
 The streamsx.tutorials is a community-based documentation project for IBM Streams.
 The goal of the project is to provide easy-to-follow documentation and development guides to help users get started with Streams.
 
 # Table of Content
+<div class="toctest">
 {% include nav.html context="/docs/spl-lab/"%}
+</div>
 
 # New Documentation
 
@@ -40,3 +43,7 @@ Refer to this documentation to get started:  [Using Jekyll with Pages](https://h
 To contribute, clone this project locally, make your changes, and create a pull request. You can also click on the "Edit Me" button, then click on "Edit this file" to make changes right in your browser.
 
 To learn more on how to do this, refer to this documentation:  [Contribute to IBM Streams Github Project](https://developer.ibm.com/streamsdev/docs/contribute-github-project/)
+
+
+ {% include nextPageFinder.html context=page.url %}
+ 

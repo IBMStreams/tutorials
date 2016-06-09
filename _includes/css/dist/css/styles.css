@@ -21,6 +21,63 @@ navbar-default .navbar-collapse,
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
 }
 
+.nextPageLink{
+    background: #f1f1f1;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    padding: 15px;
+    width: 35em;
+}
+
+.nextPageLink a{
+    display: block;
+}
+
+.toctest{
+    background: #f1f1f1; /* #f1f1f1 is the hex-code for the previously used color */
+    padding-top: 10px; /* #DBF0FD also a possibility, slightly daker blue*/
+    padding-bottom: 10px; /* #E7F5FE lighter DB... */
+    width: 470px;
+}
+
+.toctest ul{
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    width: 470px;
+    background-color: #f1f1f1;
+}
+
+.toctest li a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#nav2{
+    
+}
+
+#nav2ul{
+    width: 420px;
+    background-color: #f1f1f1;
+    list-style-type: disc;
+}
+
+#nav2ul a{
+    font-weight: normal;
+}
+
+#nav2ul > #nav2 {
+    color:#0645AD ;
+}
+
+#nav2ul > #nav2 > span{
+    color:#0645AD ;
+}
+
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
 }
