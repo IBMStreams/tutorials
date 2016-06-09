@@ -14,9 +14,9 @@
 
         {% if current == include.context %}
           {% unless currentPage.url contains 'drafts'%}
-            <li class="nav1">
+            <li>
                 <a href="{{ site.baseurl }}{{ currentPage.url }}">{{ currentPage.title }}</a>
-                {% include nav2.html context=currentPage.url %}
+                {% include nav.html context=currentPage.url %}
             </li>
           {% endunless %}
         {% endif %}

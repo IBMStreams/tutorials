@@ -5,11 +5,14 @@ description:  IBM Streams community-based tutorials project.
 ---
 
 # streamsx.tutorials
+---
 The streamsx.tutorials is a community-based documentation project for IBM Streams.
 The goal of the project is to provide easy-to-follow documentation and development guides to help users get started with Streams.
 
 # Table of Content
+<div class="toctest">
 {% include nav.html context="/docs/spl-lab/"%}
+</div>
 
 # New Documentation
 
