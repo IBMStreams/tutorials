@@ -6,7 +6,7 @@ $(document).ready(function(){
     
     sidebar.append("<li><a href='" + location.origin + "/tutorials/docs/spl-lab/Lab-4/Adding-a-Test-for-Unexpected-Data/'>Adding a Test for Unexpected Data</a></li>");
     
-    sidebar.append("<li><a href='" + location.origin + "/tutorials/docs/spl-lab/Lab-4/Splitting-Off-the-Ingest-Module/'>Splitting Off the Ingest Module</a></li>");
+    sidebar.append("<li><a href='" + location.origin + "/tutorials/docs/spl-lab/Lab-4/Splitting-off-the-Ingest-Module/'>Splitting Off the Ingest Module</a></li>");
     
     sidebar.append("<li><a href='" + location.origin + "/tutorials/docs/spl-lab/Lab-4/Extending-your-Application-with-Toolkits/'>Extending your Application with Toolkits</a></li>");
     
