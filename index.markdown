@@ -4,7 +4,7 @@ title:  streamsx.tutorials
 description:  IBM Streams community-based tutorials project.  
 ---
 
-# streamsx.tutorials
+# IBM Streams Tutorials
 ---
 The streamsx.tutorials is a community-based documentation project for IBM Streams.
 The goal of the project is to provide easy-to-follow documentation and development guides to help users get started with Streams.
@@ -46,4 +46,3 @@ To learn more on how to do this, refer to this documentation:  [Contribute to IB
 
 
  {% include nextPageFinder.html context=page.url %}
- 
