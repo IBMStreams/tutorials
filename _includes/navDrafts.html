@@ -1,0 +1,24 @@
+{% capture html %}
+<ul>
+    {% if include.context == "/" %}
+        <li>
+            <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+        </li>
+    {% endif %}
+
+    {% assign pages = site.pages | sort: "weight" %}
+    {% for currentPage in pages %}
+
+        {% capture slug    %}{{ currentPage.url | split: "/"   | last                       }}{% endcapture %}
+        {% capture current %}{{ currentPage.url | remove: slug | remove: "//" | append: "/" }}{% endcapture %}
+
+        {% if current == include.context %}
+            <li>
+                <a href="{{ site.baseurl }}{{ currentPage.url }}">{{ currentPage.title }}</a>
+                {% include nav.html context=currentPage.url %}
+            </li>
+        {% endif %}
+
+    {% endfor %}
+</ul>
+{% endcapture %}{{ html | strip_newlines}}
