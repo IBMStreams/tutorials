@@ -37,7 +37,7 @@ The Split mechanism works as follows (see the example in Figure 5, below):
 
   * If n < 0, the tuple is dropped
   
-<img width="60%" src="/tutorials/images/Lab4/2.jpg"/>
+<img width="60%" src="/tutorials/images/Lab4/2.JPG"/>
 
 <div class="alert alert-info" role="alert">
 <h4><b>Remember</b></h4>
@@ -76,30 +76,30 @@ At any time during the steps below, use   Layout and   Fit to Content to keep th
 
     How to read this? “If the substring of the id attribute starting at offset zero with length one (in other words, the first character of id) is ‘C’ and the length of the id attribute is four, then zero; otherwise one.” So, proper IDs go out from the first port (Expected), and everything else goes out from the second port, Unexpected.
 
-<div class="alert alert-info" role="alert">
-<h4><b>SPL expression language syntax</b></h4>
+    <div class="alert alert-info" role="alert">
+    <h4><b>SPL expression language syntax</b></h4>
     The syntax &lt;boolean-expression&gt; ? &lt;action-if-true&gt; : &lt;action-if-false&gt;
     is known from C, Java, and other languages. The functions substring(string,start,length) and length(string) are from the Standard Toolkit. The suffix “l” (the letter ell) indicates that the numbers are 64-bit values (“long” integers). SPL does not make implicit type conversions; integer numbers with no suffix are 32-bit values, and assigning one to a 64-bit parameter would raise an error.</div>
 
 1. Configure the new FileSink operator. You’ve used a FileSink in two previous parts, so refer back to those if you forgot how to do it.
 
-  * First Rename it to ErrWriter.
+    a. First Rename it to ErrWriter.
 
-  * Set the following parameter values:
+    b. Set the following parameter values:
 
-| Parameter | Value |
-|-----------|-------|
-| file | "error.observations" |
-| flush | 2u |
-| format | csv |
-| quoteStrings | false |
+    | Parameter | Value |
+    |-----------|-------|
+    | file | "error.observations" |
+    | flush | 2u |
+    | format | csv |
+    | quoteStrings | false |
 
 
-<br>
-<div class="alert alert-info" role="alert">
-<h4><b>Flushing buffered file writes</b></h4>
-FileSink performs buffered file I/O, meaning that it writes to buffers maintained by system libraries rather than directly to disk. These buffers are only written out to disk (flushed) as they fill up, or when the requesting application terminates. When the output is a slow trickle, this can mean that you will not see anything in the file for a long time. Setting flush to 2u (the u is for “unsigned” integer) guarantees that you will see data at least in batches of two records.
-</div>
+    <br>
+    <div class="alert alert-info" role="alert">
+    <h4><b>Flushing buffered file writes</b></h4>
+    FileSink performs buffered file I/O, meaning that it writes to buffers maintained by system libraries rather than directly to disk. These buffers are only written out to disk (flushed) as they fill up, or when the requesting application terminates. When the output is a slow trickle, this can mean that you will not see anything in the file for a long time. Setting flush to 2u (the u is for “unsigned” integer) guarantees that you will see data at least in batches of two records.
+    </div>
 
 1. Save, launch the app, and verify that the original output files, filtered.cars and average.speeds, are being written to the data directory as before, and that the new output file (error.observations) has at least two records in it, after a suitable amount of time: the input file contains two records with a malformed ID (and other abnormal attribute values as well).
 

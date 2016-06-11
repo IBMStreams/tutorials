@@ -28,7 +28,7 @@ The QSE VMware Image has the following configuration:
 | Streams domain | StreamsDomain (started automatically) |
 | Streams instance | StreamsInstance (started automatically) |
 
-In the QSE VMware Image, a domain (StreamsDomain) and instance (StreamsInstance) have already been created and automatically started. This means that everything you need to run and test your applications is already prepared for you.
+<br>In the QSE VMware Image, a domain (StreamsDomain) and instance (StreamsInstance) have already been created and automatically started. This means that everything you need to run and test your applications is already prepared for you.
 
 A **domain** is a logical grouping of resources in a network for the purpose of common management and administration. The domain is managed by a small number of Linux services (daemons) for tasks such as authentication and authorization, auditing, supporting the Streams Console, etc.
 

@@ -71,7 +71,7 @@ In the lab so far, you have built a monolithic app, but there is a logical divis
     
 Notice that the tuples flow from operator to operator throughout the instance graph, even though they are divided into two main composites. Leave the two applications running; you’ll be adding a third.
 
-<img width="100%" src="/tutorials/images/Lab4/1.jpg"/>
+<img width="100%" src="/tutorials/images/Lab4/1.JPG"/>
 
  {% include nextPageFinder.html context=page.url %}
  

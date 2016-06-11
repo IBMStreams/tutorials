@@ -18,7 +18,7 @@ While developing, you often want to inspect not just the overall tuple flow, but
 
   Notice that, as expected, the Filtered stream contains only tuples with an id value of “C101” or “C133”, whereas the Throttle output contains a greater mix of vehicle IDs:
   
-<img width="100%" src="/tutorials/images/Lab2/4.jpg"/>
+<img width="100%" src="/tutorials/images/Lab2/4.JPG"/>
 
 
   When you have seen enough data, dismiss the two floating Properties views.

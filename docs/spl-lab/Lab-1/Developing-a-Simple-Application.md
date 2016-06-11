@@ -16,8 +16,6 @@ The application will meet the following high-level requirements:
 * Reads vehicle location data from a file
 * Filters vehicle location data by vehicle ID
 * Writes the filtered vehicle location data to a file
-
-
 *	Design the application graph in the graphical editor
 * Use three operators (an operator is the basic building block of an application graph): one each to read a file (FileSource), write a file (FileSink), and perform the filtering (Filter)
 * Take it step by step:
@@ -60,10 +58,6 @@ To create a project:
 
   Alternatively, right-click in the Project Explorer and choose New > Project….
 
-  _Would anyone else object to getting rid of the right-click guidance? I have a feeling that it's the kind of thing a lot of users will figure out for themselves._
-
-  _I think InfoSphere Streams Studio might change. Need to confirm with Mary Komor._
-  
 1. In the New Project dialog, expand InfoSphere Streams Studio and select *SPL Application Project*. Click *Next*.
 
 2. In the New SPL Application Project wizard, enter the following information:

@@ -33,7 +33,6 @@ Because Streams is a distributed platform that does not require a shared file sy
 </div>
 
 # Defining a stream type
-What is a stream type? Why does the user need to create a stream type?
 
 Rather than defining the schema (stream type) of each stream separately in the declaration of each stream, create a type ahead of time, so that each stream can simply refer to that type. This eliminates code duplication and improves consistency and maintainability.
 
@@ -71,7 +70,7 @@ Select the field under Name, which says Add new type….
 
 3. Continue typing and using Tab to jump to the next field to enter the attribute names and types listed in Table 3, above. The fields should look like the Figure below.
 
-<br><img width="60%" src="/tutorials/images/Lab1/2.jpg"/>
+<br><img width="60%" src="/tutorials/images/Lab1/2.JPG"/>
 
   Leave the Properties view open. 
   

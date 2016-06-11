@@ -7,11 +7,10 @@ weight: 700
 
 # Extending your application with toolkits
 ---
-_Explain the benefit of using toolkits. For example, someone else has already done the work to achieve common types of analytics with IBM Streams. You can pull the toolkits into your app so that you don't need to recreate the wheel.
+Streams toolkits allow for users to utilize pre-constructed tools for common types of analytics with streams. These toolkits come packaged with functions and operators which facilitate analytics. 
 
-Also, point them to the content on GitHub so that they can explore the toolkits in more detail._
-
-_If this truly belongs as part of the modular application design section, we can put it back in there. However, I think it might make sense to make the two subsections into sub modules and keep this as a parent to help set the context of IBM Streams toolkits._
+For more on the toolkits available for streams visit the 
+[IBM Streams Toolkits](https://www.ibm.com/support/knowledgecenter/SSCRJU_3.2.1/com.ibm.swg.im.infosphere.streams.dev.doc/doc/introduction.html) section in the IBM knowledge center.
 
  {% include nextPageFinder.html context=page.url %}
  

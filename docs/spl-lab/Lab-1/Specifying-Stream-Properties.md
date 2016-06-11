@@ -51,7 +51,7 @@ SPL automatically assigns names (Identifiers) to operators by using the name(s) 
 
 1. The FileSource operator needs to know what file to read. In the graphical editor, select the FileSource_2 operator. In the Properties view (Param tab), click Add…; in the Select parameters dialog, select file and format, and click OK. In the value for file, enter "/home/streamsadmin/data/all.cars" (with quotes and exactly as shown here, all lowercase); for format, enter csv. The two displays should look as follows:
 
-    <img width="80%" src="/tutorials/images/Lab1/3.jpg"/>
+    <img width="80%" src="/tutorials/images/Lab1/3.JPG"/>
 
 1. You have to tell the Filter operator what to filter on; without a filter condition, it will simply copy every input tuple to the output. In the graphical editor, select Filter_3. In the Properties view (Param tab), click Add…; in the Select parameters dialog, select filter and click OK.
 
