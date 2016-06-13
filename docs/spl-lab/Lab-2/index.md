@@ -55,7 +55,7 @@ Instead of using the palette’s filter field to quickly pick up the operators y
 
 Your streams view should look like this at this point:
 
-<img width="85%" src="/tutorials/images/Lab2/3.jpg"/>
+<img width="85%" src="/tutorials/images/Lab2/3.JPG"/>
 
 <div class="alert alert-info" role="alert">
 <h4><b>Optional input ports</b></h4>

@@ -19,7 +19,7 @@ So far, the operators you’ve used look at each tuple in isolation; there was n
 If you are confident that your results from the previous part are correct, you can continue working with them and skip this section.
 </div>
 
-To continue with this part even if you did not successfully complete the previous part, import a Streams project that has been prepared for you, containing the expected results of Part 2.
+To continue with this part even if you did not successfully complete the previous part, import a Streams project that has been prepared for you, containing the expected results of Lab 2.
 
 1. In the Project Explorer, right-click on the current project (MyProject or MyProject1) and choose Close Project. This gets it out of the way for builds or name conflicts, without deleting any files.
 
