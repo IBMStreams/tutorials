@@ -52,7 +52,7 @@ You are now ready to run this program or, in Streams Studio parlance, launch the
 
     <b>Figure 3. Finished and running application. All PEs are healthy, so the job is, too.</b>
 
-    <img width="45%" src="/tutorials/images/Lab1/4.jpg"/>
+    <img width="45%" src="/tutorials/images/Lab1/4.JPG"/>
 
 
     There is a lot more to the Instance Graph; you will explore it further in the next part.
@@ -66,6 +66,7 @@ The input data is exhausted but the job is still running. This is always true fo
 1. To inspect the results, you must look at the input and output data.
 
     a. In the top menu, choose File > Open File...
+    
     b. In the Open File dialog, browse to streamsadmin/data/all.cars and click OK.
 
     Studio opens the file in an editor view; it shows location observations for multiple vehicle IDs: C127, C128, etc.

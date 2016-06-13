@@ -18,7 +18,7 @@ Because the file is read every 45 seconds and the throttled drawdown takes a lit
 
 1. 	Hover over the information tool in the **PE Connection Congestion** row in the **Summary** card to find out exactly which PEs are congested and how badly. Also notice how pattern in the **Flow Rate Chart** is now different compared to when the job was young.
 
-    <img width="100%" src="/tutorials/images/Lab3/5.jpg"/>
+    <img width="100%" src="/tutorials/images/Lab3/5.JPG"/>
 
     The information panel shows at the top of the list: this means that congestion is observed on a stream called **Observations** at the output port of an operator of the same name (you did that by removing the operator alias). Note, however, that while **Observations** is the one that suffers congestion, it is the next operator, called **Throttled**, that causes it.
 

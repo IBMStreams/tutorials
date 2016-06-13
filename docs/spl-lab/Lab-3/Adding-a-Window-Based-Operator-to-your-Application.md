@@ -51,7 +51,7 @@ You will compute average speeds over a window, separately for vehicles C101 and 
     
     b. 	Under Type, type rstring; press Tab to go to the next name field.
     
-    c. 	Continue typing (and using Tab to jump to the next field) to enter the output schema attribute names and types listed in Table 5 on page 32.
+    c. 	Continue typing (and using Tab to jump to the next field) to enter the output schema attribute names and types listed in Table 5 above.
 
 5. 	Tell the Aggregate operator what to do.
     
@@ -71,7 +71,7 @@ You will compute average speeds over a window, separately for vehicles C101 and 
         
         </ol>
         
-    <img width="50%" src="/tutorials/images/Lab3/3.jpg"/>
+    <img width="50%" src="/tutorials/images/Lab3/3.JPG"/>
 
     b. 	Configure the window as partitioned on vehicle ID (the id attribute).
     

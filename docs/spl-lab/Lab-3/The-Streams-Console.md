@@ -33,7 +33,7 @@ To open the Streams Console:
 
     The image shows a snapshot highlighting some of the graphically depicted information. For example, the **PES** card shows quickly which processing elements consume little memory and CPU (in the bottom left) and which consume a lot (top and right). This lets a developer identify quickly which operators to focus on during performance optimization, or pinpoint a memory leak.
 
-    <img width="100%" src="/tutorials/images/Lab3/2.jpg"/>
+    <img width="100%" src="/tutorials/images/Lab3/2.JPG"/>
 
     <div class="alert alert-info" role="alert">
     <h4><b>Remember PEs?</b></h4>
@@ -74,7 +74,7 @@ In addition, there are other cards with useful information:
 
 - A **Flow Rate Chart** showing the tuple submission rates of all source operators from all jobs.
 
-<img width="100%" src="/tutorials/images/Lab3/4.jpg"/>
+<img width="100%" src="/tutorials/images/Lab3/4.JPG"/>
 
 The **Flow Rate Chart** is interesting. It shows that the tuple rate is bursty: the source operator (FileSource, in this case) reads the file as fast as it can, until it runs out of data; this fills up the input port buffer of the Throttle, which calmly draws down that buffer at 40 tuples per second. At just about the right time, when the Throttle operator is almost out of data, the same file is reported to the FileSource, which reads it again in one sharp burst. The chart shows the flow rate at zero most of the time, with peaks up to just over 600 tuples per second spaced 45 seconds apart. Note that the chart shows a moving average over three seconds; in reality, the FileSource reads the entire file containing 1902 tuples in less than a second.
 

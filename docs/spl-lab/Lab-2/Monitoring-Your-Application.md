@@ -17,7 +17,7 @@ In this part, you will further develop the vehicle data filtering application an
 If you are confident that your results from the previous part are correct, you can continue working with them and skip this section.
 </div>
 
-To continue with this part even if you did not successfully complete the previous part, import a Streams project that has been prepared for you, containing the expected results of Part 1.
+To continue with this part even if you did not successfully complete the previous part, import a Streams project that has been prepared for you, containing the expected results of Lab 1.
 
 1. In the Project Explorer, right-click on the current project (MyProject) and choose Close Project. This gets it out of the way for builds or name conflicts, without deleting any files.
 
@@ -43,7 +43,7 @@ Instead of using the palette’s filter field to quickly pick up the operators y
 
 1. In the graphical editor’s palette, expand spl (under Toolkits), and then spl.adapter. Drag DirectoryScan into the main composite. The editor names the operator DirectoryScan_4.
 
-1. Scroll down in the palette and expand spl.utility; scroll down further and find Throttle. Drag and drop it onto the stream Observations, exactly as you did with the LocationType schema in `step __11. on page 17.` (Make sure the stream is highlighted by green handles before you let go.)
+1. Scroll down in the palette and expand spl.utility; scroll down further and find Throttle. Drag and drop it onto the stream Observations, exactly as you did with the LocationType schema previously. (Make sure the stream is highlighted by green handles before you let go.)
 
     The operator will be called Throttle_5. The editor automatically connects the Observations stream to its input port and creates a new stream, with the same schema as Observations, from its output port to the input of Filtered. There is no need to adjust the schema of this new stream: The Throttle operator merely controls the rate at which tuples flow, without changing their contents.
 
@@ -55,7 +55,7 @@ Instead of using the palette’s filter field to quickly pick up the operators y
 
 Your streams view should look like this at this point:
 
-<img width="85%" src="/tutorials/images/Lab2/3.jpg"/>
+<img width="85%" src="/tutorials/images/Lab2/3.JPG"/>
 
 <div class="alert alert-info" role="alert">
 <h4><b>Optional input ports</b></h4>
