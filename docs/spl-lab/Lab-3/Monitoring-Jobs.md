@@ -28,7 +28,7 @@ Of course, as long as the PE keeps up with the tuple flow, high CPU load doesn�
 ## Visualizing data flow
 
 Data is carried in tuples; tuples flow on streams. To view data, you have to monitor a stream.
-1. 	In the Streams graph, hover over the Filtered stream (from Filtered to Averaged). In the panel that pops up, click Create View.
+1. 	In the Streams graph, hover over the Filtered stream (from Filtered to Averaged). In the panel that pops up, click Create Dashboard View.
 
 1. 	Data Visualization Views are comparable to the Show Data views in Studio.
 
@@ -44,14 +44,14 @@ Data is carried in tuples; tuples flow on streams. To view data, you have to mon
 
 1. 	It’s easier to interpret numerical data when you depict it graphically. Let’s look at speed and heading. Since they have different numeric ranges, it’s best to show them in separate charts. Speed first.
   
-1. 	In the data visualization view, click **Create Chart**.
+1. 	In the data visualization view, click **Create Time Series Chart**.
   
 2. 	In the **Chart** tab of the **Create Time Series Line Chart** dialog, adjust the **Chart name** as you see fit; for example, set it to `Filtered Cars: Speed`.
   
 3. 	In the **Categories** tab:  
       Select **Values of One Attribute:**  
-      Set **Measured by (Y-Axis)** to **speed**  
-      Set **Plot Lines With Values Of:** to **id**  
+      Set **Lines measured against this attribute** to **speed**  
+      Set **Plot lines for each unique value of:** to **id**  
       Keep **All Values** selected
 
 1. 	Next, heading. Perform the same steps as in step 3 but choose **heading** in **Measured by**, and set an appropriate Chart name.
