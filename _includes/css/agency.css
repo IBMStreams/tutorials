@@ -31,8 +31,8 @@
 .contributing {
     font-family: Montserrat;
     max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+    line-height: 1.7em;
 }
 
 body {
