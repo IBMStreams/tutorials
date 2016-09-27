@@ -1,5 +1,1 @@
-# Streams Tutorials
-(Incubation)  Streams Tutorials project for creating tutorials.
-
-See this link for the site.
-http://ibmstreams.github.io/tutorials
+IBMStreams.github.io/tutorials project is for the development of the IBM Streams Tutorials Github Projects website.

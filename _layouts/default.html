@@ -1,3 +1,20 @@
-{% include header.html %}
-	{{ content }}
-{% include footer.html %}
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+    <body id="page-top" class="index">
+
+    {% include header.html %}
+    {% include onlineCourses.html %}
+    {% include guides.html %}
+    {% include labs.html %}
+    {% include help.html %}
+    {% include contributing.html %}
+    {% include links.html %}
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
+</html>

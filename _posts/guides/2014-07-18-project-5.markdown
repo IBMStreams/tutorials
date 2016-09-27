@@ -1,0 +1,9 @@
+---
+title: Get Started with JMS Operators
+subtitle: Get started with the Messaging Toolkit and learn how to configure JMS operators to work with either WebSphere MQ or ActiveMQ messaging systems.
+layout: default
+category: guides
+imgURL: https://ibmstreams.github.io/streamsx.documentation/docs/4.2/messaging/jms-operators-getting-started/
+thumbnail: get-started-with-jms-operators.gif
+alt: image-alt
+---

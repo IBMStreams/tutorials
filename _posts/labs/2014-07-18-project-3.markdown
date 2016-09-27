@@ -1,0 +1,9 @@
+---
+title: R Toolkit Lab
+subtitle: This lab uses the com.ibm.streams.rproject Streams toolkit to execute an R script on tuples flowing through a Streams application.
+layout: default
+category: labs
+imgURL: https://developer.ibm.com/streamsdev/docs/r-toolkit-lab/
+thumbnail: r-toolkit-lab.jpg
+alt: image-alt
+---

@@ -1,0 +1,9 @@
+---
+title: Geospatial Toolkit Hands-on Lab
+subtitle: In this lab, you will use simulated telematics data from vehicles (cars or buses), updated every second, to implement a simple geofencing application.
+layout: default
+category: labs
+imgURL: https://developer.ibm.com/streamsdev/docs/streams-4-0-geospatial-toolkit-hands-on-lab/
+thumbnail: geospatial-toolkit-lab.png
+alt: image-alt
+---

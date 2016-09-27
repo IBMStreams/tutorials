@@ -1,0 +1,9 @@
+---
+title: Quick Start Guide
+subtitle: The Streams Quick Start Guide will first introduce the basic concepts and building blocks. Then, you will write, run and monitor a very simple Streams application.
+layout: default
+category: guides
+imgURL: https://developer.ibm.com/streamsdev/docs/streams-quick-start-guide/
+thumbnail: quick-start-guide.jpg
+alt: image-alt
+---

@@ -1,61 +1,63 @@
-<!DOCTYPE HTML>
+<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                     <img class="logo" src="img/logo.png">
+                    {{site.title}}
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#onlineCourses">Online Courses</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#guides">Guides</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#labs">Labs</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#help">Help</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contribute">Contributing</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text" >
+                <!--<div class="intro-lead-in">IBM Streams</div> -->
+                <div class="intro-heading" >
+                    <p>
+                        Welcome to <span>IBM Streams Tutorials<span>, a central hub consisting of links to courses, guides, and labs. This site aims to help people learn and develop their skills in Streams.
+                    </p>
+                </div>
+                <!--<a href="https://www.youtube.com/watch?v=wsBozjMVDJ8" class="page-scroll btn btn-xl">Tell Me More</a> -->
+            </div>
+        </div>
+    </header>
 <!--
-	Arcana by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>IBM Streams Tutorials</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/css/ie/html5shiv.js"></script><![endif]-->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.dropotron.min.js"></script>
-		<script src="assets/js/skel.min.js"></script>
-		<script src="assets/js/skel-layers.min.js"></script>
-		<script src="assets/js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="assets/css/skel.css" />
-			<link rel="stylesheet" href="assets/css/style.css" />
-			<link rel="stylesheet" href="assets/css/style-wide.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
-	</head>
-	<body>
-
-		<!-- Header -->
-			<div id="header">
-
-				<!-- Logo -->
-					<h1>
-						<img class="logo" src="assets/images/logo.png">
-						&nbsp;&nbsp;
-						<a href="{{ site.baseurl }}/index.html" id="logo">IBM Streams <em>Tutorials</em></a>
-					</h1>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul>
-							{% assign current = page.url | downcase | split: '/' %}
-							<li {% if current[1] == 'index.html' %}class="current"{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
-							<li>
-								<a href="#courses">Online Courses</a>
-							</li>
-							<li>
-								<a href="#articles">Articles/Guides</a>
-							</li>
-							<li>
-								<a href="#new-documentation">New Documentation</a>
-							</li>
-							<li>
-								<a href="#feedback">Feedback</a>
-							</li>
-							<li>
-								<a href="#contributing">Contributing</a>
-							</li>
-						</ul>
-					</nav>
-
-			</div>
+        {% for page in site.pages %}
+          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% endfor %}
+ -->
