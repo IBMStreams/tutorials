@@ -17,6 +17,12 @@
     font-family: Montserrat;
 }
 
+.help p {
+    font-size: 1em;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
 .links {
     margin-bottom: 50px;
     font-family: Montserrat;
@@ -273,9 +279,11 @@ fieldset[disabled] .btn-xl.active {
     text-align: left;
 }
 
+/*
 .icon:visited {
     color: white !important;
 }
+*/
 
 .exploreImage {
     width: 100%;
