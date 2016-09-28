@@ -12,6 +12,23 @@
     background: #EEF7FA !important;
 }
 
+#introduction {
+    background-color: #f7f7f7;
+    margin: 160px auto 0px auto;
+    height: 5%;
+    width: 50%;
+    min-width: 720px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 60px;
+    font-size: 28px;
+    color: black;
+}
+
+#introduction strong {
+    color: #fed136;
+}
+
 .help {
     margin-bottom: 50px;
     font-family: Montserrat;
