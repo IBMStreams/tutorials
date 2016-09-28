@@ -4,6 +4,6 @@ subtitle: Learn how to create business rules, construct rule flows, and create a
 layout: default
 category: toolkits
 imgURL: https://developer.ibm.com/streamsdev/docs/rules-toolkit-lab/
-thumbnail: rules-odm-toolkit-lab.jpg
+thumbnail: rules-odm-toolkit-lab.png
 alt: image-alt
 ---

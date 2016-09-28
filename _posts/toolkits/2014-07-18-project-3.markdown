@@ -4,6 +4,6 @@ subtitle: Get started with the Messaging Toolkit and learn how to configure JMS 
 layout: default
 category: toolkits
 imgURL: https://ibmstreams.github.io/streamsx.documentation/docs/4.2/messaging/jms-operators-getting-started/
-thumbnail: get-started-with-jms-operators.gif
+thumbnail: get-started-with-jms-operators.png
 alt: image-alt
 ---
