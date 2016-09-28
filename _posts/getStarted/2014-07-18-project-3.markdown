@@ -3,7 +3,7 @@ title: Streams Studio Quick Start Guide
 subtitle: The Streams Studio Quick Start Guide will teach you the basic concepts and approaches for using the tooling to develop streams applications.
 layout: default
 category: getStarted
-imgURL: https://developer.ibm.com/streamsdev/docs/streams-quick-start-guide/
+imgURL: https://developer.ibm.com/streamsdev/docs/studio-quick-start/
 thumbnail: streams-studio-quick-start-guide.png
 alt: image-alt
 ---

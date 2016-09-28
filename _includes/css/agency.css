@@ -66,8 +66,6 @@ body {
     color: #{{ site.color.secondary-dark }};
     zoom: 0.8; /* Other non-webkit browsers */
     zoom: 80%; /* Webkit browsers */
-    -moz-transform: scale(0.8);
-    -moz-transform-origin: center top;
 }
 
 .text-muted {

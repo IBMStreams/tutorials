@@ -4,6 +4,6 @@ subtitle: The Streams Quick Start Guide will first introduce the basic concepts 
 layout: default
 category: getStarted
 imgURL: https://developer.ibm.com/streamsdev/docs/streams-quick-start-guide/
-thumbnail: quick-start-guide.jpg
+thumbnail: quick-start-guide.png
 alt: image-alt
 ---
