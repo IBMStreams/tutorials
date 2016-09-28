@@ -1,4 +1,4 @@
-<!-- Guides Section -->
+<!-- Toolkits Section -->
 <a name="toolkits"></a>
 <section id="portfolio" class="bg-light-gray">
     <div class="container">
@@ -11,7 +11,7 @@
         <div class="row">
         {% for post in site.categories.toolkits reversed %}
             <div class="col-lg-3 col-sm-6 portfolio-item">
-                <a href="{{ post.imgURL }}" class="portfolio-link">
+                <a target="_blank" href="{{ post.imgURL }}" class="portfolio-link">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                             <i class="fa fa-external-link fa-3x"></i>
@@ -20,7 +20,7 @@
                     <img src="img/toolkits/{{ post.thumbnail }}" class="img-responsive" alt="">
                 </a>
                 <div class="portfolio-caption bg-white toolkits">
-                    <h4><a href="{{ post.imgURL }}">{{ post.title }}</a></h4>
+                    <h4><a target="_blank" href="{{ post.imgURL }}">{{ post.title }}</a></h4>
                     <br />
                     <p class="text-muted">{{ post.subtitle }}</p>
                 </div>
