@@ -35,6 +35,25 @@
     line-height: 1.7em;
 }
 
+.portfolio-caption a {
+    color: black;
+}
+
+.portfolio-caption.getStarted {
+    height: 270px;
+}
+
+.portfolio-caption.toolkits {
+    height: 265px;
+}
+
+.portfolio-caption.bluemix {
+    height: 290px;
+}
+
+.portfolio-caption.apacheEdgent {
+    height: 315px;
+}
 
 .subtitle {
     font-family: Montserrat;
@@ -45,6 +64,10 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.color.secondary-dark }};
+    zoom: 0.8; /* Other non-webkit browsers */
+    zoom: 80%; /* Webkit browsers */
+    -moz-transform: scale(0.8);
+    -moz-transform-origin: center top;
 }
 
 .text-muted {

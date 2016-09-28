@@ -1,9 +1,9 @@
 ---
-title: Bluemix Streaming Analytics Starter Application
-subtitle: This tutorial explains how to obtain, run, and extend a starter application that is written in Liberty for Java™ and that uses the Streaming Analytics service.
+title: Roadmap for Streaming Analytics Service
+subtitle: Follow this roadmap to learn about the IBM Streaming Analytics Service on Bluemix.
 layout: default
 category: bluemix
-imgURL: https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/
-thumbnail: bluemix-streaming-analytics-starter-application.jpg
+imgURL: https://developer.ibm.com/streamsdev/docs/roadmap-for-streaming-analytics-service-on-bluemix/
+thumbnail: roadmap-for-streaming-analytics-service.jpg
 alt: image-alt
 ---

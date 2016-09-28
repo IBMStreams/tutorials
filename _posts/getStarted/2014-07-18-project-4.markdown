@@ -1,0 +1,9 @@
+---
+title: Water Conservation Starter Kit
+subtitle: Get started with the water conservation starter kit, a prototype for a smarter, connected sprinkler system using Apache Edgent, IBM Streams and the Raspberry Pi.
+layout: default
+category: getStarted
+imgURL: https://github.com/IBMStreams/streamsx.waterConservation.starterKit
+thumbnail: water-conservation-starter-kit.png
+alt: image-alt
+---

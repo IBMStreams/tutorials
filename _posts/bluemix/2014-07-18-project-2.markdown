@@ -1,9 +1,9 @@
 ---
-title: Integrate IBM Streaming Analytics Service with Watson IoT Platform
-subtitle: In this recipe, we show how to use the Streaming Analytics service to analyze the events published by IoT devices, on the IBM Watson IoT Platform.
+title: Bluemix Streaming Analytics Starter Application
+subtitle: This tutorial explains how to obtain, run, and extend a starter application that is written in Liberty for Java™ and that uses the Streaming Analytics service.
 layout: default
 category: bluemix
-imgURL: https://developer.ibm.com/recipes/tutorials/integrate-ibm-streaming-analytics-service-with-watson-iot-platform/
-thumbnail: integrate-ibm-streaming-analytics-service-with-watson-iot-platform.png
+imgURL: https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/
+thumbnail: bluemix-streaming-analytics-starter-application.jpg
 alt: image-alt
 ---
