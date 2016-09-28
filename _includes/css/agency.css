@@ -17,7 +17,6 @@
     margin: 80px auto 60px auto;
     height: 5%;
     width: 100%;
-    min-width: 720px;
     border-radius: 20px;
     text-align: center;
     padding: 60px;
@@ -385,6 +384,14 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
     background-color: #{{ site.color.secondary }};
+}
+
+@media(max-width: 768px) {
+    #introduction {
+        margin: 40px auto 40px auto;
+        font-size: 22px;
+        padding: 20px;
+    }
 }
 
 @media(min-width:768px) {
