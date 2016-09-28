@@ -2,7 +2,7 @@
 title: Connect Apache Edgent on Pi to the Streaming Analytics Service
 subtitle: This recipe explains how to connect your Apache Edgent on a Raspberry Pi to the Streaming Analytics Service.
 layout: default
-category: guides
+category: apacheEdgent
 imgURL: https://developer.ibm.com/recipes/tutorials/connect-apache-quarks-on-pi-to-the-streaming-analytics-service/
 thumbnail: connect-apache-edgent-on-pi.png
 alt: image-alt

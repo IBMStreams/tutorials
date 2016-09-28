@@ -2,7 +2,7 @@
 title: Integrate IBM Streaming Analytics Service with Watson IoT Platform
 subtitle: In this recipe, we show how to use the Streaming Analytics service to analyze the events published by IoT devices, on the IBM Watson IoT Platform.
 layout: default
-category: guides
+category: bluemix
 imgURL: https://developer.ibm.com/recipes/tutorials/integrate-ibm-streaming-analytics-service-with-watson-iot-platform/
 thumbnail: integrate-ibm-streaming-analytics-service-with-watson-iot-platform.png
 alt: image-alt

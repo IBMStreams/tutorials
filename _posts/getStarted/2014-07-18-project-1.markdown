@@ -2,7 +2,7 @@
 title: Get Started with IBM Streams
 subtitle: Follow this course to learn the fundamentals of how to use Streams Studio and the Streams Console.
 layout: default
-category: onlineCourses
+category: getStarted
 imgURL: https://github.com/jekyll/jekyll/issues/1819
 thumbnail: get-started-with-ibm-streams.png
 alt: image-alt

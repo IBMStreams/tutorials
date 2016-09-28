@@ -35,6 +35,12 @@
     line-height: 1.7em;
 }
 
+
+.subtitle {
+    font-family: Montserrat;
+    max-width: 95%;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -382,19 +388,10 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: left;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 120px;
 }
 
 header .intro-text .intro-lead-in {
@@ -455,8 +452,6 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 350px;
-        padding-bottom: 0px;
     }
 
     header .intro-text .intro-lead-in {
@@ -469,15 +464,14 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-heading {
         padding: 0 10px 0 10px;
-        margin-bottom: 0px;
+        margin: 0 auto;
         font-family: Montserrat, nyt-mag-slab, georgia, 'times new roman', times, serif;
         font-size: 3em;
         font-weight: 700;
         line-height: 75px;
         background-color: rgba(0,0,0,0.7);
         width: 100%;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+        border-radius: 10px;
     }
 
     .intro-text .intro-heading p {
@@ -489,54 +483,54 @@ header .intro-text .intro-heading {
 
 #title {
        -webkit-user-select: none;
-background-attachment: scroll;
-background-clip: border-box;
-background-color: rgba(0, 0, 0, 0);
-background-image: linear-gradient(rgb(72, 72, 72) 0%, rgb(51, 51, 51) 100%);
-background-origin: padding-box;
-background-size: auto;
-border-bottom-color: rgb(72, 72, 72);
-border-bottom-left-radius: 3px;
-border-bottom-right-radius: 3px;
-border-bottom-style: solid;
-border-bottom-width: 1px;
-border-image-outset: 0px;
-border-image-repeat: stretch;
-border-image-slice: 100%;
-border-image-source: none;
-border-image-width: 1;
-border-left-color: rgb(72, 72, 72);
-border-left-style: solid;
-border-left-width: 1px;
-border-right-color: rgb(72, 72, 72);
-border-right-style: solid;
-border-right-width: 1px;
-border-top-color: rgb(72, 72, 72);
-border-top-left-radius: 3px;
-border-top-right-radius: 3px;
-border-top-style: solid;
-border-top-width: 1px;
-box-sizing: border-box;
-color: rgb(255, 255, 255);
-cursor: pointer;
-display: inline-block;
-font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-font-weight: bold;
-height: 100px;
-line-height: 25.7142868041992px;
-margin-bottom: 20px;
-outline-color: rgb(255, 255, 255);
-outline-style: none;
-outline-width: 0px;
-padding-bottom: 20px;
-padding-left: 40px;
-padding-right: 40px;
-padding-top: 20px;
-text-align: center;
-text-decoration: none;
-text-transform: uppercase;
-vertical-align: middle;
-white-space: nowrap;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgb(72, 72, 72) 0%, rgb(51, 51, 51) 100%);
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-color: rgb(72, 72, 72);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(72, 72, 72);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(72, 72, 72);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(72, 72, 72);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    height: 100px;
+    line-height: 25.7142868041992px;
+    margin-bottom: 20px;
+    outline-color: rgb(255, 255, 255);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    white-space: nowrap;
 }
 
 section {
@@ -636,9 +630,8 @@ section h3.section-subheading.contributing {
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    font-style: italic;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
 }
 
 #portfolio * {
