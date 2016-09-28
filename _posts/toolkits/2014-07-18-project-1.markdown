@@ -1,9 +1,9 @@
 ---
-title: Tutorial for Streaming Telecommunications Event Data Analytics (TEDA)
-subtitle: Learn how to develop mediation applications using the Telecommunications Event Data Analytics toolkit.
+title: Get Started with Cybersecurity Toolkit
+subtitle: Get started with the Cybersecurity Toolkit which provides operators capable of analyzing network traffic and detecting suspicious behaviour.
 layout: default
 category: toolkits
-imgURL: https://developer.ibm.com/streamsdev/docs/tutorial-for-streaming-telecommunications-event-data-analytics-teda/
-thumbnail: tutorial-for-streaming-teda.jpg
+imgURL: https://ibmstreams.github.io/streamsx.documentation/docs/4.2/cybersecurity/cybersecurity-getting-started/
+thumbnail: get-started-with-cybersecurity-toolkit.png
 alt: image-alt
 ---
