@@ -600,7 +600,7 @@ section h3.section-subheading.contributing {
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 360px;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
@@ -642,7 +642,7 @@ section h3.section-subheading.contributing {
 #portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
-    max-width: 400px;
+    max-width: 360px;
     text-align: center;
 }
 
