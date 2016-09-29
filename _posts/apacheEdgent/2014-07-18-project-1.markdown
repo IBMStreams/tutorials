@@ -1,5 +1,5 @@
 ---
-title: Getting started with Apache Edgent
+title: Getting Started with Apache Edgent
 subtitle: This guide walks you through how to get started with Apache Edgent including where to download it and how to set up your environment.
 layout: default
 category: apacheEdgent
