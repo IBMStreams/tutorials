@@ -1,9 +1,9 @@
 ---
-title: Connect Apache Edgent on Pi to the Watson IoT Platform
-subtitle: This recipe shows you how to connect a range sensor to your Raspberry Pi, launch an Edgent sample that reads sensor data and runs analytics locally, then sends filtered data to IBM Watson IoT Platform.
+title: Getting started with Apache Edgent
+subtitle: This guide walks you through how to get started with Apache Edgent including where to download it and how to set up your environment.
 layout: default
 category: apacheEdgent
-imgURL: https://developer.ibm.com/recipes/tutorials/apache-quarks-on-pi-to-watson-iot-foundation/
-thumbnail: connect-apache-edgent-on-pi.png
+imgURL: https://edgent.apache.org/docs/edgent-getting-started.html
+thumbnail: getting-started-with-apache-edgent.jpg
 alt: image-alt
 ---
