@@ -4,6 +4,6 @@ subtitle: This guide walks you through how to get started with Apache Edgent inc
 layout: default
 category: apacheEdgent
 imgURL: https://edgent.apache.org/docs/edgent-getting-started.html
-thumbnail: getting-started-with-apache-edgent.JPG
+thumbnail: getting-started-with-apache-edgent.png
 alt: image-alt
 ---
