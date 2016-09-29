@@ -1,5 +1,5 @@
 ---
-title: Quick Start Guide
+title: Streams Quick Start Guide
 subtitle: The Streams Quick Start Guide will first introduce the basic concepts and building blocks. Then, you will write, run and monitor a very simple Streams application.
 layout: default
 category: getStarted
