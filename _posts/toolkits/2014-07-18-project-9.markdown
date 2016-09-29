@@ -1,0 +1,9 @@
+---
+title: Rules (ODM) Toolkit Lab
+subtitle: Learn how to create business rules, construct rule flows, and create and deploy rules applications to analyze data and automate decisions in real-time.
+layout: default
+category: toolkits
+imgURL: https://developer.ibm.com/streamsdev/docs/rules-toolkit-lab/
+thumbnail: rules-odm-toolkit-lab.png
+alt: image-alt
+---

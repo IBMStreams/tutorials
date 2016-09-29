@@ -1,0 +1,9 @@
+---
+title: Get Started with Kafka Operators
+subtitle: Get started with the Messaging Toolkit which provides Kafka operators to get you connected to your messaging servers as quickly as possible.
+layout: default
+category: toolkits
+imgURL: https://ibmstreams.github.io/streamsx.documentation/docs/4.2/messaging/kafka-operators-getting-started/
+thumbnail: get-started-with-kafka-operators.png
+alt: image-alt
+---

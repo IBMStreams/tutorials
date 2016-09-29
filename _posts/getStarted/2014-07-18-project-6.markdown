@@ -1,0 +1,9 @@
+---
+title: Python Application API Development Guide
+subtitle: This guide covers the high-level concepts of streaming application development with Python and walks you through creating a sample application.
+layout: default
+category: getStarted
+imgURL: https://ibmstreams.github.io/streamsx.documentation/docs/4.2/python/python-appapi-devguide/
+thumbnail: python-app-api-dev-guide.png
+alt: image-alt
+---

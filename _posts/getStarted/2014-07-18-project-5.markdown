@@ -1,0 +1,9 @@
+---
+title: Java Application API Development Guide
+subtitle: This guide will discuss the general principles behind streaming application development and demonstrate the benefits of the Java Application API in a sample application.
+layout: default
+category: getStarted
+imgURL: https://ibmstreams.github.io/streamsx.documentation/docs/4.2/java/java-appapi-devguide/
+thumbnail: java-app-api-dev-guide.png
+alt: image-alt
+---

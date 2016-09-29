@@ -1,0 +1,9 @@
+---
+title: Tutorial for Streaming Telecommunications Event Data Analytics (TEDA)
+subtitle: Learn how to develop mediation applications using the Telecommunications Event Data Analytics toolkit.
+layout: default
+category: toolkits
+imgURL: https://ibmstreams.github.io/streamsx.tutorial.teda/
+thumbnail: tutorial-for-streaming-teda.jpg
+alt: image-alt
+---
