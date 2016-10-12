@@ -4,6 +4,16 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.navbar-fixed-bottom2 {
+    bottom: 0;
+    margin-bottom: 0;
+    border-radius: 0px;
+    position: fixed;
+    z-index: 1030;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
 .bg-white {
     background: #fff !important;
 }
@@ -250,6 +260,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .logo {
+    vertical-align: middle;
+    height: 40px;
+}
+
+.backIcon {
+    font-size: 1.333333em !important;
+    line-height: 1.333333em !important;
     vertical-align: middle;
     height: 40px;
 }
