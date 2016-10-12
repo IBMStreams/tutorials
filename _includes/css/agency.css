@@ -4,7 +4,25 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+#goBack {
+    margin-left: 0px;
+    -webkit-transition: width 2s;
+}
+
+#goBack #goBackText {
+    display: none;
+}
+
+#goBack:hover #goBackText{
+    display: inline;
+}
+
+.container-fluid2 {
+    padding: 0px;
+}
+
 .navbar-fixed-bottom2 {
+    right: 0;
     bottom: 0;
     margin-bottom: 0;
     border-radius: 0px;
