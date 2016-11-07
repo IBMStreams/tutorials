@@ -1,0 +1,9 @@
+---
+title: Rules based processing in real-time streaming applications
+subtitle: Develop a sample application that will walk you through the steps and process of using rules within your streaming applications.
+layout: default
+category: toolkits
+imgURL: https://developer.ibm.com/streamsdev/docs/rules-based-processing-in-real-time-streaming-applications/
+thumbnail: rules-based-processing-in-real-time.png
+alt: image-alt
+---
