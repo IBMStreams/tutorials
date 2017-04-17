@@ -1,0 +1,9 @@
+---
+title: Build a Python app on the Streaming Analytics service
+subtitle: Create a Python app with Jupyter notebook, and then build and deploy this app on the IBM Streaming Analytics service on IBM Bluemix.
+layout: default
+category: dsx
+imgURL: https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca9c6e8
+thumbnail: build-python-app.png
+alt: image-alt
+---
