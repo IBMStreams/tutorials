@@ -1,0 +1,9 @@
+---
+title: Build and use a data model in real time with the Python API
+subtitle: Learn to create a data model with sample data and visualize and deploy a streaming application on the Streaming Analytics service on IBM Bluemix.
+layout: default
+category: dsx
+imgURL: https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039ca60bb7
+thumbnail: build-and-use-data-model-with-python.png
+alt: image-alt
+---

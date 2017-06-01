@@ -1,0 +1,9 @@
+---
+title: Developing Python applications for the Streaming Analytics service
+subtitle: Get started with the Python Application API by creating an application that reads data from a temperature sensor and prints the output to the screen.
+layout: default
+category: bluemix
+imgURL: http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/
+thumbnail: python-app-api-dev-guide.png
+alt: image-alt
+---

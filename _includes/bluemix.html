@@ -26,6 +26,30 @@
                 </div>
             </div>
         {% endfor %}
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="section-heading">IBM Data Science Experience</h3>
+                <h3 class="section-subheading text-muted">Learn to create and deploy Jupyter notebook apps to the Streaming Analytics service on Bluemix.</h3>
+            </div>
+        </div>
+        {% for post in site.categories.dsx reversed %}
+            <div class="col-lg-3 col-sm-6 portfolio-item">
+                <a target="_blank" href="{{ post.imgURL }}" class="portfolio-link">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                            <i class="fa fa-external-link fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="img/dsx/{{ post.thumbnail }}" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-caption bg-light-gray bluemix">
+                    <h4><a target="_blank" href="{{ post.imgURL }}">{{ post.title }}</a></h4>
+                    <br />
+                    <p class="text-muted">{{ post.subtitle }}</p>
+                </div>
+            </div>
+        {% endfor %}
         </div>
     </div>
 </section>
