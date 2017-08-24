@@ -1,0 +1,9 @@
+---
+title: Streaming Analytics Basics for Python Developers
+subtitle: This course introduces you to the IBM Streams Python Application API which lets you write streaming applications without needing to learn SPL.
+layout: default
+category: getStarted
+imgURL: https://developer.ibm.com/courses/all/streaming-analytics-basics-python-developers/
+thumbnail: python-course.png
+alt: image-alt
+---
