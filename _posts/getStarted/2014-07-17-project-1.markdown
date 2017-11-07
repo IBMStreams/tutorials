@@ -1,0 +1,9 @@
+---
+title: Streams IoT Starter Kit
+subtitle: A summary of the new features in IBM Streams v4.2 Quick Start Edition and how to get started for developers, data engineers, and business users.
+layout: default
+category: getStarted
+imgURL: https://github.com/IBMStreams/streamsx.iot.starterkit/
+thumbnail: iot-starter-kit-homepage.png
+alt: image-alt
+---
