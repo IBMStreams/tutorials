@@ -1,9 +1,9 @@
 ---
-title: Java Application API Development Guide
-subtitle: This guide will discuss the general principles behind streaming application development and demonstrate the benefits of the Java Application API in a sample application.
+title: Getting Started with IBM Streams v4.2 Quick Start Edition
+subtitle: A summary of the new features in IBM Streams v4.2 Quick Start Edition and how to get started for developers, data engineers, and business users.
 layout: default
 category: getStarted
-imgURL: https://ibmstreams.github.io/streamsx.documentation/docs/4.2/java/java-appapi-devguide/
-thumbnail: java-app-api-dev-guide.png
+imgURL: http://ibmstreams.github.io/streamsx.documentation/docs/4.2/qse-getting-started/
+thumbnail: getting-started-with-ibm-streams-4-2-qse.jpg
 alt: image-alt
 ---
