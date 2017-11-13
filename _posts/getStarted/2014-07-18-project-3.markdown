@@ -1,0 +1,9 @@
+---
+title: Streams Runner for Apache Beam Development Guide
+subtitle: Learn how to use Streams Runner for Apache Beam to execute Beam pipelines.
+layout: default
+category: getStarted
+imgURL: http://ibmstreams.github.io/streamsx.documentation/docs/beamrunner/beamrunner-1-intro/
+thumbnail: metricsingraph.jpg
+alt: image-alt
+---
