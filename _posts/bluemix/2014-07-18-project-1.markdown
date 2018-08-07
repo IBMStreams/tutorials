@@ -1,6 +1,6 @@
 ---
 title: Roadmap for Streaming Analytics Service
-subtitle: Follow this roadmap to learn about the IBM Streaming Analytics Service on Bluemix.
+subtitle: Follow this roadmap to learn about the IBM Streaming Analytics Service on IBM Cloud.
 layout: default
 category: bluemix
 imgURL: https://developer.ibm.com/streamsdev/docs/roadmap-for-streaming-analytics-service-on-bluemix/

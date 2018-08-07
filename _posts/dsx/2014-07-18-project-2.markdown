@@ -1,6 +1,6 @@
 ---
 title: Healthcare Python Streaming Application Demo
-subtitle: Learn to integrate a Python app that ingests and displays physionet patient data with Jupyter notebook and the Streaming Analytics service on IBM Bluemix.
+subtitle: Learn to integrate a Python app that ingests and displays physionet patient data with Jupyter notebook and the Streaming Analytics service on IBM Cloud.
 layout: default
 category: dsx
 imgURL: https://apsportal.ibm.com/exchange/public/entry/view/9fc33ce7301f10e21a9f92039cad29a6
