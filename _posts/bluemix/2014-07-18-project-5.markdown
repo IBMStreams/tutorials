@@ -3,7 +3,7 @@ title: Video - Deploying the Stock Trades Starter Application
 subtitle: This video gets you started on using the stock trades starter application to analyze stock quotes and compute the rolling average price for each company.
 layout: default
 category: bluemix
-imgURL: http://ibmstreams.github.io/streamsx.documentation/docs/python/1.6/python-appapi-devguide-2a/
+imgURL: https://youtu.be/aXAqAaijzWc
 thumbnail: getting-started-video.png
 alt: image-alt
 ---
