@@ -1,9 +1,0 @@
----
-title: Get Started with IBM Streams
-subtitle: Follow this course to learn the fundamentals of how to use Streams Studio and the Streams Console.
-layout: default
-category: getStarted
-imgURL: https://developer.ibm.com/courses/all-courses/get-started-with-ibm-streams/
-thumbnail: get-started-with-ibm-streams-original.PNG
-alt: image-alt
----
