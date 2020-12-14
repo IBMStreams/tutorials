@@ -1,9 +1,0 @@
----
-title: Using the JDBC toolkit to connect to JDBC compliant databases
-subtitle: Use the JDBC toolkit to connect to relational databases from Streams applications running on-prem and in the cloud.
-layout: default
-category: toolkits
-imgURL: https://developer.ibm.com/streamsdev/docs/developing-streams-applications-with-the-jdbcrun-operator/
-thumbnail: get-started-with-jbdc-toolkit.png
-alt: image-alt
----

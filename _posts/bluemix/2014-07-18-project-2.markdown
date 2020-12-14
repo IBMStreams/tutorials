@@ -1,9 +1,0 @@
----
-title: Streaming Analytics Starter Application
-subtitle: This tutorial explains how to obtain, run, and extend a starter application that is written in Liberty for Java™ and that uses the Streaming Analytics service in the IBM Cloud.
-layout: default
-category: bluemix
-imgURL: https://developer.ibm.com/streamsdev/docs/bluemix-streaming-analytics-starter-application/
-thumbnail: bluemix-streaming-analytics-starter-application.jpg
-alt: image-alt
----

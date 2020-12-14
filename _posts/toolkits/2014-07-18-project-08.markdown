@@ -1,9 +1,0 @@
----
-title: SPSS Analytics Toolkit Lab
-subtitle: Leverage the analytics of SPSS in real-time using the IBM SPSS Analytics Toolkit for Streams.
-layout: default
-category: toolkits
-imgURL: https://developer.ibm.com/streamsdev/docs/spss-analytics-toolkit-lab/
-thumbnail: spss-analytics-toolkit-lab.jpg
-alt: image-alt
----
